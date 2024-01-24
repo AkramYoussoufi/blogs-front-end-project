@@ -1,1 +1,22 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import "./app/variables";
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: $font-family;
+}
+
+.btn-primary {
+  background-color: $check;
+  border-color: $check;
+  border-radius: 0px;
+  &:hover {
+    background-color: transparent;
+    color: $check;
+    border-color: $check;
+  }
+}

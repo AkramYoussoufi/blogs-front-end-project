@@ -1,19 +1,21 @@
 //Colors:
-$primary-color:#0000;
-$secondary-color:#0000;
-$accent-color:#0000;
-$background-color:#0000;
-$text-color:#0000;
-$link-color:#0000;
+$primary-color: #3f6ce9;
+$secondary-color: #556fb5;
+$accent-color: #ffbb64;
+$background-color: #fbf9f1;
+$text-color: #252933;
+$text-color-under-bg: #fbf9f1;
+$link-color: #e5e1da;
 
 //Bubbles
-$check:'';
-$danger:'';
-$carefull:'';
-$info:'';
+$check: #6bcb77;
+$danger: #ff6b6b;
+$carefull: #ffd93d;
+$info: #4d96ff;
 
 // Typography
-$font-family: 'Arial', sans-serif;
+@import url("https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+$font-family: "Rubik", sans-serif;
 $font-size-base: 16px;
 $line-height-base: 1.5;
 
